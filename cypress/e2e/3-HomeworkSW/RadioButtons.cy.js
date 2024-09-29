@@ -15,10 +15,12 @@ describe('RadioButtons', () => {
         
     })
 
-    it.only('tc-02 checkradio', () => {
+    it('tc-02 checkradio', () => {
         cy.get('[type="radio"]').check('black')
+        cy.get('[type="radio"]').check('basketball')
         // cy.get('col-md-3 mb-2').should('be.checked').and('have.value', 'black')
         cy.get('#black').should('be.checked').and('have.value', 'black')
+        cy.get('#basketball').should('be.checked').and('have.value', 'basketball')
     })
 
 })

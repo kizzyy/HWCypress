@@ -1,0 +1,15 @@
+{
+    "age": {
+        "valid": 41,
+        "invalid": 0
+    },
+    "height": {
+        "valid": 183,
+        "invalid": -13
+    },
+    "weight": {
+        "valid": 80,
+        "invalid": -0
+    }
+
+}
